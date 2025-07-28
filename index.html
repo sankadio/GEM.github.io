@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Groupe Expert Métier</title>
+  <link rel="stylesheet" href="EMBS.css" />
+  <script src="EMBS.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="img.PNG.jpeg" alt="Logo EMBS" />
+    </div>
+
+    <div class="menu-toggle" id="menu-toggle">☰</div>
+
+    <nav id="menu">
+      <ul>
+        <li id="accueil" onclick="showSection('accueil')" class="active">Accueil</li>
+        <li onclick="showSection('apropos')">À propos</li>
+        <li onclick="showSection('formation')">Formation</li>
+        <li onclick="showSection('contact')">Contact</li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="accueil" class="content-section">
+      <div class="accueil-titles">
+        <h1>Bienvenue</h1>
+        <h2>Au Groupe Expert-Métier </h2>
+      </div>
+
+      <div class="slider">
+  <div class="slider-caption">S’instruire pour se construire dans une école privée d’excellence</div>
+  <img src="slid1.png.jpeg" class="slide active" alt="slid1" />
+  <img src="slid2.png.jpeg" class="slide" alt="slid2" />
+  <img src="slid3.jnp.jpeg" class="slide" alt="slid3" />
+  <img src="slid4.png.jpeg" class="slide" alt="slid4" />
+      </div>
+    </section>
+
+    <section id="apropos" class="content-section" style="display: none;">
+      <h2>À propos de nous</h2>
+      <p>
+        Découvrez notre histoire, notre mission et les valeurs qui font du Groupe Expert-Métier une référence incontournable de l'enseignement supérieur en Afrique francophone.
+      </p>
+      <hr class="orange-line" />
+      <p>
+        Créé par le <strong>GROUPE EXPERT-MÉTIER S.A</strong>, 
+        <strong>EXPERT-MÉTIER BUSINESS SCHOOL (EMBS)</strong> et 
+        <strong>EXPERT MÉTIER - SCHOOL of ENGINEERING (E3M)</strong> 
+        sont deux établissements qui forment des experts métier, opérationnels pour servir dans les entreprises, les administrations, les ONG et toute autre organisation professionnelle.
+      </p>
+
+      <h3>Notre Vision</h3>
+      <p>Former des leaders compétents, responsables et innovants pour contribuer au développement économique de l'Afrique.</p>
+
+      <h3>Notre Mission</h3>
+      <p>Offrir un enseignement supérieur de qualité axé sur la pratique, l’éthique et l'excellence professionnelle.</p>
+
+      <h3>Approche Pédagogique</h3>
+      <p>Nos formations sont basées sur des cas pratiques, des stages en entreprise, des projets concrets et l'accompagnement personnalisé des étudiants.</p>
+
+      <h3>Nos Partenaires</h3>
+      <p>Nous collaborons avec plusieurs entreprises locales et internationales pour faciliter l’insertion professionnelle de nos diplômés.</p>
+
+      <h3>Notre Campus</h3>
+      <p>Situé à Cocody, notre campus moderne offre un cadre d’apprentissage agréable avec des salles climatisées, une connexion internet, et des équipements adaptés à chaque filière.</p>
+    </section>
+
+    <section id="formation" class="content-section" style="display: none;">
+      <h2>Nos filières</h2>
+      <div class="filieres">
+        <div class="bloc">COMMUNICATION</div>
+        <div class="bloc">FINANCE COMPTABILITÉ & GESTION D'ENTREPRISE</div>
+        <div class="bloc">GENIE CIVIL</div>
+        <div class="bloc">GESTION COMMERCIALE ( GESCOM )</div>
+        <div class="bloc">INFORMATIQUE</div>
+        <div class="bloc">RESSOURCES HUMAINES & COMMUNICATION</div>
+        <div class="bloc">TOURISME - HOTELLERIE (TH)</div>
+      </div>
+      <h2>Diplômes</h2>
+      <ul>
+        <li>BTS (BAC+2)</li>
+        <li>LICENCE (BAC+3)</li>
+        <li>MASTER (BAC+5)</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="content-section" style="display: none;">
+      <h2>Contactez-nous</h2>
+      <p>Notre équipe est à votre disposition pour répondre à toutes vos questions.</p>
+      <hr class="orange-line" />
+      <p>
+        Téléphone :<br />
+        27 22 20 44 32<br />
+        01 50 53 66
+      </p>
+      <p>
+        Email :<br />
+        <a href="mailto:contact@embs-ci.com">contact@embs-ci.com</a><br />
+      </p>
+    </section>
+  </main>
+
+  <!-- Section Pourquoi nous choisir ? -->
+  <div id="choisir" class="content-section">
+    <section class="choisir-section">
+      <h1><strong>Pourquoi nous choisir ?</strong></h1>
+      <div class="choisir-blocs">
+        <div class="choisir-bloc">
+          <img src="icone1.png" alt="Excellence académique" />
+          <h3>Excellence académique</h3>
+          <p>
+            Des formations de qualité dispensées par des experts du métier pour vous rendre opérationnel rapidement.
+          </p>
+        </div>
+        <div class="choisir-bloc">
+          <img src="icone2.png" alt="Insertion professionnelle" />
+          <h3>Insertion professionnelle</h3>
+          <p>Des partenariats avec des entreprises et un accompagnement vers l'emploi dès la sortie.</p>
+        </div>
+        <div class="choisir-bloc">
+          <img src="icone3.png" alt="Encadrement personnalisé" />
+          <h3>Encadrement personnalisé</h3>
+          <p>Une équipe pédagogique disponible et attentive pour guider chaque étudiant vers la réussite.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <div class="footer-content">
+      <p><strong>Groupe Expert Métier</strong></p>
+      <p>Abidjan, Côte d’Ivoire | Cocody – Cocody 2 plateaux, derrière l'ENA Rue j9</p>
+      <p>Tél : 27 22 20 44 32 / 01 50 53 66</p>
+      <p>Email : <a href="mailto:contact@embs-ci.com">contact@embs-ci.com</a></p>
+
+      <div class="social-icons">
+        <a
+          href="https://www.facebook.com/Expertmetierbusinessschool"
+          target="_blank"
+          title="Facebook"
+          >📘 Expert Métier Business School</a
+        ><br />
+        <a href="https://www.tiktok.com/@Groupe.expert.mti" target="_blank" title="TikTok"
+          >🎵 Groupe.expert.mti</a
+        >
+      </div>
+
+      <p class="copyright">&copy; 2025 Groupe Expert Métier – Tous droits réservés.</p>
+    </div>
+  </footer>
+  <!-- Bouton retour en haut -->
+<button id="scrollTopBtn" title="Retour en haut">⬆</button>
+</body>
+</html>
